@@ -46,7 +46,7 @@ const Cart = ({cart,setCart}) => {
    
   </form>
     <Link to={"/"} className='btn btn-warning'>Continue Shopping...</Link>  
-   {/* <div class="text">  */}
+   <div class="text">  */}
   {/* <form>
    
     <label>Full Name</label>
@@ -76,7 +76,8 @@ const Cart = ({cart,setCart}) => {
   </form>
   
   
-  </div> */}
+  </div>
+  
   
   
   
