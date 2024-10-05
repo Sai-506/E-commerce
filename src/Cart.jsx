@@ -63,7 +63,7 @@ const Cart = ({cart,setCart}) => {
       cart.map((product)=>{
         return(
           <>
-          <div className="card" style={{width:'300px'}}>
+          <div className="card" style={{width:'350px'}}>
   <div className="row g-0">
     <div className="col-md-4">
       <img src={product.imgSrc} className="img-fluid rounded-start" alt="..." />
