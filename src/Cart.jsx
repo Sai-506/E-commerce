@@ -17,10 +17,10 @@ const Cart = ({cart,setCart}) => {
   left:"500px",
   borderradius:"10px",
   textalign: "center"}}>
-  <h1 style={{color:"red",textAlign:"center",width:"350px"}}>Place Your Order Here</h1>
+  <h1 style={{color:"red",textAlign:"center",width:"350px",}}>Place Your Order Here</h1>
   <form>
    
-    <label>Full Name</label>
+    <label>Full Name:</label>
     <input type="text" value=""></input><br></br><br></br>
     <label>Mobile Number</label>
     <input type="numbers" value=""></input><br></br><br></br><br></br>
