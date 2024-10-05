@@ -12,12 +12,11 @@ const Cart = ({cart,setCart}) => {
 <div class="text-center" style={{width:"300px",
   height:"500px",
   position:"absolute",
- 
-  top:"100px",
+ top:"100px",
   left:"500px",
   borderradius:"10px",
   textalign: "center"}}>
-  <h1 style={{color:"red",textAlign:"center",width:"350px",}}>Place Your Order Here</h1>
+  <h1 style={{color:"red",width:"350px",}}>Place Your Order Here</h1>
   <form>
    
     <label>Full Name:</label>
