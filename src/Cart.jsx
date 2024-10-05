@@ -21,9 +21,9 @@ const Cart = ({cart,setCart}) => {
   <form>
    
     <label>Full Name</label>
-    <input type="text" value=""></input><br></br>
+    <input type="text" value=""></input><br></br><br></br>
     <label>Mobile Number</label>
-    <input type="numbers" value=""></input><br></br><br></br>
+    <input type="numbers" value=""></input><br></br><br></br><br></br>
     <label>choose state</label>
     <select id="state" name="state">
     <option value="AndhraPradesh">AndhraPradesh</option>
@@ -31,17 +31,17 @@ const Cart = ({cart,setCart}) => {
     <option value="AndhraPradesh">Karnataka</option>
     <option value="AndhraPradesh">Maharastra</option>
     </select>
-    <br></br>
+    <br></br><br></br>
     <label>Village</label>
-    <input type="text" value=""></input><br></br>
+    <input type="text" value=""></input><br></br><br></br>
     <label>PinCode</label>
-    <input type="Numbers" value=""></input><br></br>
+    <input type="Numbers" value=""></input><br></br><br></br>
     <label>House no</label>
-    <input type="Numbers" value=""></input><br></br>
+    <input type="Numbers" value=""></input><br></br><br></br>
     <label>LandMark</label>
-    <input type="text" value=""></input><br></br>
+    <input type="text" value=""></input><br></br><br></br>
     <div class="payment">
-    <a href="https://www.phonepe.com/">Payment Here</a>
+    <a href="https://www.phonepe.com/">Payment Here</a><br></br>
   </div>
    
   </form>
