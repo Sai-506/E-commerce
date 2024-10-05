@@ -62,49 +62,49 @@
 //        </div>
 //     )
 // }
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
-const BuyNow = ({ product }) => {
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+// const BuyNow = ({ product }) => {
+//   const [loading, setLoading] = useState(false);
+//   const [error, setError] = useState(null);
 
-  const handleBuyNow = async () => {
-    setLoading(true);
-    setError(null);
+//   const handleBuyNow = async () => {
+//     setLoading(true);
+//     setError(null);
 
-    try {
-      const response = await fetch('/api/purchase', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ productId: product.id }),
-      });
+//     try {
+//       const response = await fetch('/api/purchase', {
+//         method: 'POST',
+//         headers: {
+//           'Content-Type': 'application/json',
+//         },
+//         body: JSON.stringify({ productId: product.id }),
+//       });
 
-      if (!response.ok) {
-        throw new Error('Failed to purchase the product');
-      }
+//       if (!response.ok) {
+//         throw new Error('Failed to purchase the product');
+//       }
 
-      const data = await response.json();
-      // Handle successful purchase, e.g., redirect to confirmation page
-      console.log('Purchase successful:', data);
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
-    }
-  };
+//       const data = await response.json();
+//       // Handle successful purchase, e.g., redirect to confirmation page
+//       console.log('Purchase successful:', data);
+//     } catch (err) {
+//       setError(err.message);
+//     } finally {
+//       setLoading(false);
+//     }
+//   };
 
-  return (
-    <div>
-      <h2>{product.name}</h2>
-      <p>{product.price}</p>
-      <button onClick={handleBuyNow} disabled={loading}>
-        {loading ? 'Processing...' : 'Buy Now'}
-      </button>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       <h2>{product.name}</h2>
+//       <p>{product.price}</p>
+//       <button onClick={handleBuyNow} disabled={loading}>
+//         {loading ? 'Processing...' : 'Buy Now'}
+//       </button>
+//       {error && <p style={{ color: 'red' }}>{error}</p>}
+//     </div>
+//   );
+// };
 
-export default BuyNow;
+// export default BuyNow;
