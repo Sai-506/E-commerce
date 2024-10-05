@@ -43,6 +43,7 @@ pauseOnHover
 theme="dark"
 />
       <div className="container ">
+   <h1>Welcome To E-cart</h1>
         <div className="row">
           {items.map((product) => {
             return (
