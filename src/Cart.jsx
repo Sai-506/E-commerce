@@ -9,14 +9,14 @@ const Cart = ({cart,setCart}) => {
       {
         cart.length==0 ?(
 <>
-<div class="text-center" style={{width:"200px",
+<div class="text-center" style={{width:"300px",
   height:"500px",
   position:"absolute",
-  backgroundcolor: "gray",
+ ,
   top:"100px",
   left:"500px",
   borderradius:"10px",
-  justifycontent: "center"}}>
+  textalign: "center"}}>
   <h1 style={{color:"red",textAlign:"center",width:"350px"}}>Place Your Order Here</h1>
   <form>
    
