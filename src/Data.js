@@ -5,25 +5,23 @@ export const items =  [
       title: "Apple iPhone 14",
        imgSrc: 'https://m.media-amazon.com/images/I/71xb2xkN5qL._SL1500_.jpg',
       
-      description: 'Apple iPhone 14 (128 GB) - Blue',
+      description: 'easy to grip. Satisfying to hold. With their unified design and satin finish, Galaxy S24 feels as smooth as it looks.',
       price: '89999',
     },
     {
         id: 2,
-        category: 'mobiles',
-        title: "Apple iPhone 11",
-        imgSrc: 'https://m.media-amazon.com/images/I/71xb2xkN5qL._SL1500_.jpg',
+      imgSrc:'https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/desk.png?imbypass=true',
         amazonLink: 'https://amzn.to/44MiYi6',
-        description: 'Apple iPhone 11 (64GB) - White',
-        price: '79999',
+        description: 'Easy to grip. Satisfying to hold. With their unified design and satin finish, Galaxy S24 feels as smooth as it looks.',
+        price: '25999',
+      
       },
       {
         id: 3,
         category: 'mobiles',
-        title: "Apple iPhone 13",
-        imgSrc: 'https://m.media-amazon.com/images/I/71xb2xkN5qL._SL1500_.jpg',
+         imgSrc:"https://5.imimg.com/data5/SELLER/Default/2023/3/296178265/EX/FQ/OZ/186724856/vivo-mobile-phone.jpg",
         amazonLink: 'https://amzn.to/3r6XJtv',
-        description: 'Apple iPhone 13 (128GB) - Blue',
+        description: 'Vivo Y100 5G (Twilight Gold, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers',
         price: '69999',
       },
       {
@@ -32,7 +30,7 @@ export const items =  [
         title: "Lenovo IdeaPad Slim 5 ",
         imgSrc: 'https://m.media-amazon.com/images/I/71TPda7cwUL._SL1500_.jpg',
         amazonLink: 'https://amzn.to/44JsK4r',
-        description: 'Lenovo IdeaPad Slim 5 Intel Core i5 12450H 14" (35.5cm) ',
+        description: 'Lenovo IdeaPad Slim 5 Intel Core i5 12450H 14" (35.5cm),256GB SSD; 13.3-inch QHD+ with Touch ',
         price: '29999',
       },
     {
@@ -50,18 +48,18 @@ export const items =  [
       title: "Dell-7th generation-intel  corei7-16gb ram",
        imgSrc: 'https://www.swemicomputers.co.ke/wp-content/uploads/2023/03/Untitled-design-15-300x300.png.webp',
       
-       description: 'Dell-7th generation-intel  corei7-16gb ram',
+       description: 'Dell-7th generation-intel  corei7-16gb ram,256GB SSD; 13.3-inch QHD+ with Touch',
        price: '49999',
     },
     {
         id: 7,
         category: 'Men cloths',
-        title: "T -shirt combo",
-       imgSrc: 'https://m.media-amazon.com/images/I/71nykOlQFxL._AC_SX522_.jpg',
+        title: "shirt combo",
+       imgSrc:"https://m.media-amazon.com/images/I/71DBklVte9L._SX425_.jpg",
         //amazonLink: 'https://amzn.to/3RabsdH',
         
         description: 'A combo of 5 solid shirts that is brought to you by FEED UP. This shirt is light in weight and easy to maintain too',
-        price: '1999',
+        price: '3999',
       },
 
     {
@@ -71,7 +69,7 @@ export const items =  [
        imgSrc: 'https://m.media-amazon.com/images/I/61ynAeYGXHL._AC_SX569_.jpg',
      
       description: ' shirt that is brought to you by FEED UP. This shirt is light in weight and easy to maintain too',
-      price: '29999',
+      price: '1999',
     },
     {
         id: 9,
