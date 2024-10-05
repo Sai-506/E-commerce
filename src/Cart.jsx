@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import BuyNow from './BuyNow'
+// import BuyNow from './BuyNow'
 
 const Cart = ({cart,setCart}) => {
   return (
@@ -46,37 +46,8 @@ const Cart = ({cart,setCart}) => {
    
   </form>
     <Link to={"/"} className='btn btn-warning'>Continue Shopping...</Link>  
-   <div class="text">  */}
-  {/* <form>
    
-    <label>Full Name</label>
-    <input type="text" value=""></input><br></br>
-    <label>Mobile Number</label>
-    <input type="numbers" value=""></input><br></br><br></br>
-    <label>choose state</label>
-    <select id="state" name="state">
-    <option value="AndhraPradesh">AndhraPradesh</option>
-    <option value="AndhraPradesh">Telangana</option>
-    <option value="AndhraPradesh">Karnataka</option>
-    <option value="AndhraPradesh">Maharastra</option>
-    </select>
-    <br></br>
-    <label>Village</label>
-    <input type="text" value=""></input><br></br>
-    <label>PinCode</label>
-    <input type="Numbers" value=""></input><br></br>
-    <label>House no</label>
-    <input type="Numbers" value=""></input><br></br>
-    <label>LandMark</label>
-    <input type="text" value=""></input><br></br>
-    <div class="payment">
-    <a href="https://www.phonepe.com/">Payment Here</a>
-  </div>
-   
-  </form>
   
-  
-  </div>
   
   
   
