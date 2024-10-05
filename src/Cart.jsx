@@ -12,7 +12,7 @@ const Cart = ({cart,setCart}) => {
 <div class="text-center" style={{width:"300px",
   height:"500px",
   position:"absolute",
- ,
+ 
   top:"100px",
   left:"500px",
   borderradius:"10px",
