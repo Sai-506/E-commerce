@@ -44,6 +44,13 @@
   padding: 10px;
   color: white;
 }
+ h1{
+    text-align:center;
+    color:red;
+    font-size:30px;
+    padding:20px;
+    margin-top:50px;
+  } 
 .brand{
   font-weight: bolder;
   width: 20%;
